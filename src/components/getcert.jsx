@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
-import b1 from "../b3.jpg";
+import b1 from "../b1.jpg";
 import CertFound from "./certfound";
 
 class Getcert extends Component {
@@ -43,7 +43,7 @@ class Getcert extends Component {
         style={{
           //backgroundImage: `url(${b1})`,
           background: `url(${b1}) no-repeat `,
-          backgroundSize: "cover",
+          backgroundSize: "auto",
           border: "1px solid black",
           height: "100vh",
           width: "100%"

@@ -1,14 +1,16 @@
 .cert {
   height: 85vh;
   background: url("cert.png") no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin-left: 150px;
 }
 
 .pc {
   width: 200vh;
-  background: url("b3.jpg") no-repeat;
-  background-size: cover;
+  height: auto;
+  /* background: url("b3.jpg") no-repeat; */
+  background: linear-gradient(to bottom, #cc66ff 0%, #3399ff 100%);
+  background-size: auto;
 }
 #fname {
   font-size: 55px;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
-import b1 from "../b3.jpg";
+import b3 from "../b3.jpg";
 class Forms extends Component {
   canBeSubmitted() {
     const { fname, lname, course, email } = this.state;
@@ -35,9 +35,10 @@ class Forms extends Component {
       <div
         className="container-fluid "
         style={{
-          height: "100vh%",
+          height: "100%",
           //backgroundImage: `url(${b1})`,
-          background: `url(${b1}) no-repeat `,
+          // background: `url(${b3})`,
+          backgroundColor: "#ff9933",
           backgroundSize: "cover"
         }}
       >
@@ -46,11 +47,11 @@ class Forms extends Component {
             fontFamily: "Montserrat",
             fontWeight: "bold",
             fontSize: "60px",
-            color: "#66ffe7"
+            color: "#003300"
           }}
           className="mb-5 pt-3"
         >
-          Create certificates on Blockchain
+          APML Blockchain Certification
         </h1>
         <div
           style={{ marginBottom: "117px", background: "rgba(255,255,255,0.5)" }}
@@ -63,7 +64,7 @@ class Forms extends Component {
             }}
             className="mb-2"
           >
-            Enter the Certificate details
+            Enter the Certificate Details
           </h2>
           <Form onSubmit={this.addcertificate}>
             <Form.Group>
