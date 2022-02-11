@@ -34,7 +34,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Writing the contract:
 Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. They typically are used to automate the execution of an agreement so that all users can be immediately certain of the outcome, without any intermediary's involvement or time loss.
-![Smart contract image]()
+![Smart contract](https://github.com/gauravd-123/APML-Certification/blob/main/smart%20cont%20img.png)
 
 ### So our smart contracts does the following things:
 1. Checks the input given by the user,
@@ -45,11 +45,11 @@ Smart contracts are programs stored on a blockchain that run when predetermined 
 
 ### Deploying the contract
 To deploy our contract, we are using **Remix ide** which has an inbuilt solidity compiler. Firstly, we've to select the appropiate compiler version, compiler language and then click on **compile**
-![Deployment image]()
+![Deployment](https://github.com/gauravd-123/APML-Certification/blob/main/Deployment%20img.png)
 At last we get our deployed contract's address, which we've to paste in our config.js file.
 
 ### Writing the web3.js file
 Web3 is a collection of libraries which allows us to interact with a local or remote Ethereum node using an HTTP, IPC connection, etc.
-![Web3 file image]()
+![Web3 file](https://github.com/gauravd-123/APML-Certification/blob/main/Web3%20file%20img.png)
 Here we just have to declare a constant variable(which is immutable). We've to use the given provider i.e. **Metamask**, establishing the port 8545 as the bridge between web and blockchain.
 Now we can access the blockchain artifacts through web3 object.
