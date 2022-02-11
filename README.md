@@ -33,4 +33,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `Working`
 
 ## Writing the contract:
-The contract consists of 
+Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. They typically are used to automate the execution of an agreement so that all users can be immediately certain of the outcome, without any intermediary's involvement or time loss.
+![Smart contract image]()
+
+### So our smart contracts does the following things:
+1. Checks the input given by the user,
+2. Maps the data to required files(here to our certificates),
+3. Initializes the contract by checking the address of owners or        users trying to use the contract,
+4. Finally gives us the contract address which we have to use it in      our frontend files.
+
+
+### Deploying the contract
+To deploy our contract, we are using **Remix ide** which has an inbuilt solidity compiler. Firstly, we've to select the appropiate compiler version, compiler language and then click on **compile**
+![Deployment image]()
+At last we get our deployed contract's address, which we've to paste in our config.js file.
+
+### Writing the web3.js file
+Web3 is a collection of libraries which allows us to interact with a local or remote Ethereum node using an HTTP, IPC connection, etc.
+![Web3 file image]()
+Here we just have to declare a constant variable(which is immutable). We've to use the given provider i.e. **Metamask**, establishing the port 8545 as the bridge between web and blockchain.
+Now we can access the blockchain artifacts through web3 object.
