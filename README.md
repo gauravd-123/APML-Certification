@@ -1,4 +1,4 @@
-#APML certification using Blockchain Technology
+# APML certification using Blockchain Technology
 
 ### `Steps`
 
@@ -32,4 +32,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `Working`
 
-##Writing the contract:
+## Writing the contract:
+The contract consists of 
